@@ -1,0 +1,158 @@
+body {
+    background-color: #FAF6F5;
+}
+
+.bg-cr {
+    background-color: #CBB3A3;
+}
+
+.bg-ma {
+    background-color: #68422B;
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    color: #B1825E;
+}
+
+.sub-title {
+    font-size: 2rem;
+    color: #B1825E;
+}
+
+.allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lustria-regular {
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-photo {
+    border: 3px solid #CBB3A3;
+}
+
+/*LOGO*/
+
+.logo {
+    margin-top: 30px;
+    position: relative;
+}
+
+.logo .marca {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+}
+
+.logo P {
+    color: #cbb2a3;
+    font-size: 1.2rem;
+}
+
+.rh {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    color: #cbb2a3;
+    line-height: 0.7
+}
+
+/*SERVICES*/
+
+.services h3{
+    font-size: 2rem;
+    color: #B1825E;
+}
+
+.services p {
+    font-size: 1.2rem;
+}
+
+.service-1 {
+    border-left: 2px solid #CBB3A3;
+}
+
+.service-2 {
+    border-right: 2px solid #CBB3A3;
+    border-left: 2px solid #CBB3A3;
+}
+
+.service-3 {
+    border-right: 2px solid #CBB3A3;
+}
+
+/*FOOTER*/
+
+.footer {
+    color: #403737;
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer a {
+    color: #403737;
+    text-decoration: none;
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ico-social {
+    background-color: #68422B;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px) {
+
+    .logo .marca {
+        font-size: 2rem;
+    }
+
+    .logo P {
+        font-size: 1rem;
+    }
+
+    .rh {
+        font-size: 6.5rem;
+    }
+
+    .services h3{
+        font-size: 1.8rem;
+    }
+    
+    
+    .services p {
+        font-size: 1rem;
+    }
+	
+}
+
+@media screen and (max-width:992px) {
+
+    .title {
+        font-size: 4rem;
+    }
+
+    .service-1, .service-2, .service-3 {
+        border: none;
+        border-bottom: 1px solid #CBB3A3;
+    }
+	
+}
+
