@@ -71,7 +71,7 @@ body {
 
 /*SERVICES*/
 
-.services h3{
+.services h3 {
     font-size: 2rem;
     color: #B1825E;
 }
@@ -118,6 +118,36 @@ body {
     vertical-align: middle;
 }
 
+.desa p {
+    font-size: 0.8rem;
+}
+
+.desa a {
+    text-decoration: underline;
+}
+
+.desa img {
+    width: 2rem;
+    vertical-align: baseline;
+}
+/*RESPONSIVE*/
+
+@media screen and (max-width:576px) {
+    .logo .marca {
+        position: relative;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .logo P {
+        display: none;
+    }
+
+    .rh {
+        font-size: 4rem;
+    }
+}
+
 @media screen and (max-width:768px) {
 
     .logo .marca {
@@ -141,6 +171,9 @@ body {
         font-size: 1rem;
     }
 	
+    .sub-title {
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width:992px) {
